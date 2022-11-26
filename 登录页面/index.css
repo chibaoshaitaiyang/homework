@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bigbox{
+    position: relative;
+    width: 600px;
+    height: 1060px;
+    /* background-color: blue; */
+    margin: auto;
+    background-image: url(images/Background.png);
+   
+}
+.content{
+    width: 466px;
+    height: 1060px;
+    /* background-color: bisque; */
+    margin: auto;
+}
+.title{
+    display:flex;
+    justify-content: space-around;
+    position: absolute;
+    left:0;
+    width: 600px;
+    height: 83px;
+    margin-top: 20px;
+    /* background-color: pink; */
+}
+.title div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 67px;
+    height: 83px;
+    /* background-color: plum; */  
+}
+#only{
+    width: 200px;
+    margin: auto;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    line-height: 83px;
+}
+.section_one{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 466px;
+    height: 277px;
+    margin-top:200px;
+  /* background-color: rgb(65, 225, 97); */
+}
+.section_one-picture{
+    margin-top: 150px;
+}
+.section_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 466px;
+    height: 283px;
+    font-size: 26px;
+    /* background-color: salmon; */
+}
+.section_two div{
+    line-height: 70px;
+}
+   #transparent{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:transparent;
+}
+.section_two div {
+    color: white;
+    border-bottom: 1px rgb(245, 235, 235) solid;
+}
+
+#show {
+    color: #3cffb5;
+    font-size: 23px;
+}
+.section_three{
+    width: 434px;
+    height: 70px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: white;
+    color:#706d9f;
+    font-size: 32.6px;
+    text-align: center;
+    line-height: 70px;
+    border-radius:35px ;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    color: white;
+    font-size: 22.96px;
+    text-align: center;
+    line-height: 40px;
+    /* background-color: skyblue; */
+    margin-top: 20px;
+}
+#sign{
+    color: #3dfdb5;
+}
